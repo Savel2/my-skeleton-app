@@ -16,10 +16,27 @@
 
 <AppShell>
 	<svelte:fragment slot="header">
-		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
+		<AppBar>
+		<svelte:fragment slot="lead">
+			<a href="/">
+			<strong class="text-xl">ns</strong>
+		   </a>
+	   </svelte:fragment>
 		
-		<svelte:fragment slot="trail">(actions)</svelte:fragment>
+		<svelte:fragment slot="trail">
+			<a href="/">
+			<strong class="text-xl">about</strong>
+		   </a>
+		   <a href="/">
+			<strong class="text-xl">résumé</strong>
+		   </a>
+		   <a href="/">
+			<strong class="text-xl">passion</strong>
+		   </a>
+		   <a href="mailto:saveliinievierov@gmail.com.com">
+			<strong class="text-xl">contact</strong>
+		   </a>
+		</svelte:fragment>
 		</AppBar></svelte:fragment>
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
@@ -30,5 +47,3 @@
 	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
 	<!-- (footer) -->
 </AppShell>
-
-
