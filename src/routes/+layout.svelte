@@ -19,21 +19,21 @@
 		<AppBar>
 		<svelte:fragment slot="lead">
 			<a href="/">
-			<strong class="text-xl">ns</strong>
+			<strong class="text-xl">NS</strong>
 		   </a>
 	   </svelte:fragment>
 		
 		<svelte:fragment slot="trail">
-			<a href="/">
+			<a href="/about">
 			<strong class="text-xl">about</strong>
 		   </a>
 		   <a href="/">
 			<strong class="text-xl">résumé</strong>
 		   </a>
-		   <a href="/">
+		   <a href="/passion">
 			<strong class="text-xl">passion</strong>
 		   </a>
-		   <a href="mailto:saveliinievierov@gmail.com.com">
+		   <a href="mailto:saveliinievierov@gmail.com">
 			<strong class="text-xl">contact</strong>
 		   </a>
 		</svelte:fragment>
