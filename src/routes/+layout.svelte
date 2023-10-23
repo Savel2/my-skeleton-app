@@ -25,16 +25,16 @@
 		
 		<svelte:fragment slot="trail">
 			<a href="/about">
-			<strong class="text-xl">about</strong>
+			<strong class="text-sm">about</strong>
 		   </a>
 		   <a href="/">
-			<strong class="text-xl">résumé</strong>
+			<strong class="text-sm">résumé</strong>
 		   </a>
 		   <a href="/passion">
-			<strong class="text-xl">passion</strong>
+			<strong class="text-sm">passion</strong>
 		   </a>
 		   <a href="mailto:saveliinievierov@gmail.com">
-			<strong class="text-xl">contact</strong>
+			<strong class="text-sm">contact</strong>
 		   </a>
 		</svelte:fragment>
 		</AppBar></svelte:fragment>
@@ -44,6 +44,23 @@
 	<!-- Router Slot -->
 	<slot />
 	<!-- ---- / ---- -->
-	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
+	<svelte:fragment slot="pageFooter">
+		<div style="border-bottom: 1px solid #0bd08f; margin-bottom: 30px;"></div>	
+		<div class="container mx-auto p-8 space-y-2 flex flex-row justify-between">
+			<div>
+				<p>SAY HELLO</p>
+		
+				<a href="mailto:saveliinievierov@gmail.com" class="text-sm">saveliinievierov@gmail.com</a>
+				<br>
+				<a href="https://t.me/savnev" class="text-sm">t.me/savnev</a>
+			</div>
+			<div>
+				<br>
+				<a href="https://www.linkedin.com/in/savnev/" class="text-sm">LN</a>
+				<br>
+				<a href="https://github.com/Savel2" class="text-sm">GH</a>
+			</div>
+
+	</svelte:fragment>
 	<!-- (footer) -->
 </AppShell>
