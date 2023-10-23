@@ -1,22 +1,74 @@
-<div class="container mx-auto p-24 space-y-16 max-w-5xl">
-	<h1 class="h1">Who am I?</h1>
-	<p>I'm a digital enthusiast who enjoys technology and marketing. I specialise in digital marketing, no-code, automation, and Webflow. I’m passionate about what I do - all while having a lot of fun along the way.
+<script>
+	import JobBlock from '../../lib/components/JobBlock.svelte';
+  
+	let jobs = [
+	  {
+		date: '2021 - 2023',
+		jobTitle: 'Project Manager – DRIM',
+		description: 'Managed drim platform rebranding. Implemented new payment methods, took care of registration and onboarding.  ',
+		skills: 'Stakeholder Management • REST API • SEO • UX • SQL',
+	  },
+	  {
+		date: '2021 - 2021',
+		jobTitle: 'Project Manager – Gridnine Systems',
+		description: 'Managed Lunda website redesign. ',
+		skills: 'Project Delivery • Atlassian • UX • Figma',
+	  },
+	  {
+		date: '2018 - 2020',
+		jobTitle: 'Co-founder – PSS',
+		description: 'Established an portable battery sharing system. Built MVP',
+		skills: ' Product Delivery • Customer Development • Scrum • Negotiation',
+	  },
+	];
+		let otherExperience = [
+		{
+		date: '2022 - 2023',
+		jobTitle: 'Volunteer - Yasnosvit',
+		description: 'Coordinated the collection of essential supplies for over 100 Ukrainian children in London, Berlin. ',
+		skills: 'Organisational skill • Wix • Notion',
+		},
+		{
+		date: '2020 - 2021',
+		jobTitle: 'Intern Product - HelpResource',
+		description: 'Managed internal CRM automatisation and optimisation.',
+		skills: 'Customer Development • Miro • Product Delivery',
+		}, 
+		{
+		date: '2018 - 2023',
+		jobTitle: 'Events',
+		description: 'Succesfully organised few events for friends of friends.',
+		skills: 'Event Planning & Execution',
+		},
+	];
+  </script>
 
-		I’m committed to being the go-to for digital innovation in the tech and marketing space. I work with businesses and founders who are seeking better ways to engage their customers and achieve their goals. My goal is simple: to consistently produce high quality work which accelerates client’s growth and takes them to new heights.</p>
-</div>
+<div class="container mx-auto p-24 space-y-16 max-w-4xl">
+	<h1 class="h1">About</h1>
+	<p>Hi, I'm Sava. I enjoy driving complex projects to successful completion. 
+		Experienced in managing diverse software products, including influencer 
+		marketing platform, e-commerce platform, CRM, and customer-facing web 
+		applications. My goal is simple: to consistently encourage high quality 
+		development that continuously grows and improves based on user metrics. </p>
+	<p>Work Experience</p>
+	{#each jobs as { jobTitle, ...job} (jobTitle)}
+		<JobBlock
+		jobTitle={jobTitle}
+		{...job}
+	/>
+	{/each}
 
-<div class="container mx-auto p-24 space-y-16 max-w-2xl">
-	<h2 class="h2">Work experience</h2>
-</div>
-	<div class="css-zy08ml"><p class="chakra-text css-y83l2k">2022 - present</p>
-</div>
-<div class="css-14l6pud">
-	<a class="chakra-heading css-u14vgh" href="https://iyk.app">
-		Senior Frontend Engineer – IYK
-		<!-- -->
-		<img alt="link to Senior Frontend Engineer – IYK" src="/arrow-link.svg" class="chakra-image css-1dtrd5g">
-	</a>
-	<p class="chakra-text css-g5qhb2">Building the Whole Wide World﹡</p>
-	<p class="chakra-text css-y83l2k">TS • Next • Nest • Stitches • Mobx • Turbo
+	<p>Side Projects</p>
+	{#each otherExperience  as { jobTitle, ...job} (jobTitle)}
+		<JobBlock
+		jobTitle={jobTitle}
+		{...job}
+	/>
+	{/each}
+	<p>Skills / Tools</p>
+	<p>
+		Agile frameworks • Scrum • Project Delivery • Stakeholder Management 
+		• REST API • Postman • Python • Svelte • HTML • Customer Development  
+		• UX • Jira • Confluence • Excel • Miro • Figma • Slack • Notion 
 	</p>
-</div>
+	</div>

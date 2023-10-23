@@ -9,7 +9,7 @@ export const myCustomTheme: CustomThemeConfig = {
 		"--theme-font-family-heading": `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace`,
 		"--theme-font-color-base": "0 0 0",
 		"--theme-font-color-dark": "var(--color-primary-600)",
-		"--theme-rounded-base": "12px",
+		"--theme-rounded-base": "0px",
 		"--theme-rounded-container": "12px",
 		"--theme-border-base": "1px",
 		// =~= Theme On-X Colors =~=

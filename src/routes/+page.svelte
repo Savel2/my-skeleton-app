@@ -10,7 +10,7 @@
 		<br>
 		Don't hesitate to <a class="font-bold" href="/contact">CONTACT ME</a> if you'd like to know more about who I am.</p>
 	<section>
-		<a class="btn variant-filled-secondary" href="/about">See more about me</a>
+		<a class="btn variant-filled-primary" href="/about">See more about me</a>
 
 	</section>
 </div>
