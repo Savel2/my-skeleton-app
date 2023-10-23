@@ -1,5 +1,5 @@
 <script>
-	import JobBlock from '../../../../my-skeleton-app/src/lib/components/jobblock.svelte';
+	import JobBlock from '../../../src/lib/components/jobblock.svelte';
   
 	let jobs = [
 	  {
