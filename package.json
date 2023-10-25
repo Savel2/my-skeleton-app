@@ -30,6 +30,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.5.3",
-    "chessboardjs": "^0.0.1"
+    "chessboardjs": "^0.0.1",
+    "svelte-pdf": "^1.0.20"
   }
 }

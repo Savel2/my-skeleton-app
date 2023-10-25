@@ -6,8 +6,8 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import { AppBar } from '@skeletonlabs/skeleton';
-	
 
+	
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 	
 </script>
@@ -27,7 +27,7 @@
 			<a href="/about">
 			<strong class="text-sm">about</strong>
 		   </a>
-		   <a href="/">
+		   <a href="https://savel2.github.io/cv_pdf/Nievierov_Savelii_CV.pdf" target="_blank">
 			<strong class="text-sm">résumé</strong>
 		   </a>
 		   <a href="/passion">
