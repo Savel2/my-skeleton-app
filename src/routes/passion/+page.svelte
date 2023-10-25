@@ -34,11 +34,11 @@
   
   <div class="container mx-auto p-8 space-y-8">
     <h1 class="h1">Passion</h1>
-    <p>I am passionate about football. Would you like to know how our teams played in their last game?</p>
+    <p>Would you like to know about your favourite football team's recent match against mine?</p>
     <div class="input-group input-group-divider grid-cols-[auto_1fr_auto] max-w-4xl">
       <div class="input-group-shim"><img src="/323-football_102392.png" alt="Football" style="width: 40px; height: 40px;"/></div>
       <input type="search" placeholder="Enter your team name..." bind:value={teamName} />
-      <button class="variant-filled-primary" on:click={getFootballScore}>Know the score</button>
+      <button class="variant-filled-primary" on:click={getFootballScore}>Check the score</button>
     </div>
     {#if scoreResult}
       <p class="font-bold text-purple-700">The last game between our teams: {scoreResult}</p>
