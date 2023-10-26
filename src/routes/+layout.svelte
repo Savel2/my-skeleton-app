@@ -19,22 +19,22 @@
 		<AppBar>
 		<svelte:fragment slot="lead">
 			<a href="/">
-			<strong class="text-xl">NS</strong>
+			<strong class="p-16 text-4xl">NS</strong>
 		   </a>
 	   </svelte:fragment>
 		
 		<svelte:fragment slot="trail">
 			<a href="/about">
-			<strong class="text-sm">about</strong>
+			<strong class="p-2 text-sm">about</strong>
 		   </a>
 		   <a href="https://savel2.github.io/cv_pdf/Nievierov_Savelii_CV.pdf" target="_blank">
-			<strong class="text-sm">résumé</strong>
+			<strong class="p-2 text-sm">résumé</strong>
 		   </a>
 		   <a href="/passion">
-			<strong class="text-sm">passion</strong>
+			<strong class="p-2 text-sm">passion</strong>
 		   </a>
 		   <a href="mailto:saveliinievierov@gmail.com">
-			<strong class="text-sm">contact</strong>
+			<strong class="p-2 text-sm">contact</strong>
 		   </a>
 		</svelte:fragment>
 		</AppBar></svelte:fragment>
@@ -50,15 +50,15 @@
 			<div>
 				<p>SAY HELLO</p>
 		
-				<a href="mailto:saveliinievierov@gmail.com" class="text-sm">saveliinievierov@gmail.com</a>
+				<a href="mailto:saveliinievierov@gmail.com" class="no-underline hover:underline text-sm">saveliinievierov@gmail.com</a>
 				<br>
-				<a href="https://t.me/savnev" class="text-sm">t.me/savnev</a>
+				<a href="https://t.me/savnev" class="no-underline hover:underline text-sm">t.me/savnev</a>
 			</div>
 			<div>
 				<br>
-				<a href="https://www.linkedin.com/in/savnev/" class="text-sm">LN</a>
+				<a href="https://www.linkedin.com/in/savnev/" class="no-underline hover:underline text-sm">LN</a>
 				<br>
-				<a href="https://github.com/Savel2" class="text-sm">GH</a>
+				<a href="https://github.com/Savel2" class="no-underline hover:underline text-sm">GH</a>
 			</div>
 
 	</svelte:fragment>
