@@ -69,6 +69,6 @@
 	<p>
 		Agile frameworks • Scrum • Project Delivery • Stakeholder Management 
 		• REST API • Postman • Python • Svelte • HTML • Customer Development  
-		• UX • Jira • Confluence • Excel • Miro • Figma • Slack • Notion 
+		• UX • Jira • Confluence • Excel • Miro • Figma • Slack • Notion • SEO
 	</p>
 	</div>
