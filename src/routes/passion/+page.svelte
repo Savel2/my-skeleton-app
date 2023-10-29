@@ -5,7 +5,7 @@
     async function getFootballScore() {
       try {
         // Make a POST request to your Flask backend to get the football score
-        const flaskURL = 'https://flask-web-port.vercel.app/'; // Change to your Flask app's URL
+        const flaskURL = 'https://flask-web-port.vercel.app'; // Change to your Flask app's URL
         const endpoint = '/get_football_score';
         const response = await fetch(flaskURL + endpoint, {
           method: 'POST',
