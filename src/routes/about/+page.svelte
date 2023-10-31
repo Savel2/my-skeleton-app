@@ -43,7 +43,7 @@
 	];
   </script>
 
-<div class="container mx-auto p-24 space-y-16 max-w-4xl">
+<div class="container mx-auto p-8 space-y-16 max-w-4xl md:p-24">
 	<h1 class="h1">About</h1>
 	<p>Hi, I'm Sava. I enjoy driving complex projects to successful completion. 
 		Experienced in managing diverse software products, including influencer 

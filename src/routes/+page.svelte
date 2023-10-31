@@ -1,5 +1,5 @@
 
-<div class="container mx-auto p-24 space-y-16 max-w-5xl">
+<div class="container mx-auto p-8 space-y-16 max-w-5xl md:p-24">
 	<h1 class="h1">I’M NIEVIEROV SAVELII</h1>
 	<p>
 		<a class="font-bold no-underline hover:underline" href="/about">PROJECT MANAGER</a>

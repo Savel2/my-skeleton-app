@@ -19,22 +19,22 @@
 		<AppBar>
 		<svelte:fragment slot="lead">
 			<a href="/">
-			<strong class="p-16 text-4xl">NS</strong>
+			<strong class="text-3xl md:pl-20">NS</strong>
 		   </a>
 	   </svelte:fragment>
 		
 		<svelte:fragment slot="trail">
 			<a href="/about">
-			<strong class="p-2 text-sm">about</strong>
+			<strong>about</strong>
 		   </a>
 		   <a href="https://savel2.github.io/cv_pdf/Nievierov_Savelii_CV.pdf" target="_blank">
-			<strong class="p-2 text-sm">résumé</strong>
+			<strong>résumé</strong>
 		   </a>
 		   <a href="/passion">
-			<strong class="p-2 text-sm">passion</strong>
+			<strong>passion</strong>
 		   </a>
 		   <a href="mailto:saveliinievierov@gmail.com">
-			<strong class="p-2 text-sm">contact</strong>
+			<strong>contact</strong>
 		   </a>
 		</svelte:fragment>
 		</AppBar></svelte:fragment>
@@ -45,7 +45,7 @@
 	<slot />
 	<!-- ---- / ---- -->
 	<svelte:fragment slot="pageFooter">
-		<div style="border-bottom: 1px solid #0bd08f; margin-bottom: 30px;"></div>	
+		<div style="border-bottom: 1px solid #0bd08f; margin-bottom: 20px;"></div>	
 		<div class="container mx-auto p-8 space-y-2 flex flex-row justify-between">
 			<div>
 				<p>SAY HELLO</p>

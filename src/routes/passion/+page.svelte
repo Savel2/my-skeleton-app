@@ -32,7 +32,7 @@
     }
   </script>
   
-  <div class="container mx-auto p-24 space-y-8 max-w-5xl">
+  <div class="container mx-auto p-8 space-y-16 max-w-4xl md:p-24">
     <h1 class="h1">Passion</h1>
     <p>Would you like to know about your favourite football team's recent match against mine?</p>
     <div class="input-group input-group-divider grid-cols-[auto_1fr_auto] max-w-4xl">
