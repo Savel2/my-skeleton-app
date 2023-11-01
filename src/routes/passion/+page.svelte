@@ -35,12 +35,11 @@
   <div class="container mx-auto p-8 space-y-16 max-w-4xl md:p-24">
     <h1 class="h1">Passion</h1>
     <p>Would you like to know about your favourite football team's recent match against mine?</p>
-    <div class="input-group input-group-divider grid-cols-[auto_1fr_auto] max-w-4xl">
-      <div class="input-group-shim"><img src="/323-football_102392.png" alt="Football" style="width: 40px; height: 40px;"/></div>
-      <input type="search" placeholder="Enter your team name..." bind:value={teamName} />
-      <button class="variant-filled-primary" on:click={getFootballScore}>Check the score</button>
+    <div class="flex">
+      <input class="input" title="Input (text)" type="text" placeholder="Enter team..." bind:value={teamName}/>
+      <button class="btn variant-filled-primary px-2 md:px-4" on:click={getFootballScore}>Check the score</button>
     </div>
     {#if scoreResult}
       <p class="font-bold text-purple-700">The last game between our teams: {scoreResult}</p>
     {/if}
-  </div>
+</div>
