@@ -3,7 +3,13 @@
   
 	let jobs = [
 		{
-		date: '2023 - Now',
+  		date: '2025 - Now',
+  		jobTitle: 'Delivery Manager – Standing on Giants – London',
+  		description: 'Managing delivery of enterprise-scale community platform projects for clients such as Tesco Bank, AWS, Lenovo, E.ON, Lebara, Utilita. Responsible for tech roadmap planning, Incident Management, Security & Vulnerability processes, and acting as the main POC across Support Portals.',
+  		skills: 'Delivery Management • Community Platforms • Agile • Stakeholder Management • Incident Management • Jira'
+	},
+	{
+		date: '2023 - 2025',
 		jobTitle: 'Project Manager – Xanda Digital Agency - London',
 		description: 'Managed multiple client-facing website development projects, ensuring timely delivery within scope and budget, maintaining strong client relationships, and identifying upselling opportunities  ',
 		skills: 'Client Interaction • Stakeholder Management • Sales • UX • Jira',
@@ -53,9 +59,9 @@
 <div class="container mx-auto p-8 space-y-16 max-w-4xl md:p-24">
 	<h1 class="h1">About</h1>
 	<p>Hi, I'm Sava. I enjoy driving complex projects to successful completion. 
-		Experienced in managing diverse software products, including influencer 
-		marketing platform, e-commerce platform, CRM, and customer-facing web 
-		applications. PMP certified with expertise in project management best practices and methodologies. 
+		Experienced in managing diverse software products, including community platforms, influencer 
+		marketing platform, e-commerce platform, and customer-facing web 
+		applications. PMP and PSM certified with expertise in project management best practices and methodologies. 
 		My goal is simple: to consistently encourage high quality 
 		development that continuously grows and improves based on user metrics. </p>
 	<p>Work Experience</p>
