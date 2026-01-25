@@ -1,3 +1,4 @@
+console.log('USING TAILWIND CONFIG: CJS')
 const { join } = require('path')
 const forms = require('@tailwindcss/forms')
 const typography = require('@tailwindcss/typography')
